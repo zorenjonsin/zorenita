@@ -10,7 +10,7 @@ class FriendAddedEvent extends Event {
     }
     
     async run (client: BotClient, friend: Friend) {
-        return friend.sendMessage(`Hello ${friend.displayName} :)`);
+        return friend.sendMessage(`ciao ${friend.displayName} :)`);
     }
 }
 
