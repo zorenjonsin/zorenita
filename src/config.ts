@@ -4,13 +4,13 @@ import { Config } from "./types/config";
 const config: Config = {
     prefix: "!",
     ownerIds: process.env.OWNER_IDS?.split(', ') || [],
-    status: "🛴",
-    platform: Platform.IOS,
-    outfit: "Skeletara",
-    backpack: "Pursuit",
+    status: "In Lobby Server Di RENZO_ITA",
+    platform: Platform.PSN,
+    outfit: "Renegade Raider",
+    backpack: "",
     pickaxe: "Driver",
-    emote: "Poki",
-    level: 999,
+    emote: "",
+    level: 143,
 };
 
 export default config;
